@@ -1,14 +1,7 @@
-
-
-
 import {Router} from 'express';
-
+import MainhomeRouter from '../controllers/home.controller.js';
 const router = new Router();
 
+router.get('/', MainhomeRouter.home);
 
-<<<<<<< HEAD
 export default router
-=======
-export default router()
-
->>>>>>> 3c2605fa614b8cdf86692164d89e6916947228f5
