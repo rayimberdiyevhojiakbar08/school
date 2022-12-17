@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodr index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/rayimberdiyevhojiakbar08/school/issues"
   },
-  "homepage": "https://github.com/rayimberdiyevhojiakbar08/school#readme"
+  "homepage": "https://github.com/rayimberdiyevhojiakbar08/school#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.8.0"
+  }
 }
