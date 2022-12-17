@@ -1,10 +1,12 @@
 
+import About from "../controllers/about.controller.js";
+import { Router } from "express";
+
+const router = Router();
+
+router.get("/about", About.aboutHome)
+
+export default router
 
 
-import {Router} from 'express';
-
-const router = new Router();
-
-
-export default router()
 
