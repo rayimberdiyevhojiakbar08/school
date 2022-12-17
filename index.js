@@ -1,6 +1,6 @@
 import exress from 'express';
 import layout from 'express-ejs-layouts';
-
+import HomeRouter from './routers/home.router.js';
 const app = exress();
 
 app.set('view engine', 'ejs');
