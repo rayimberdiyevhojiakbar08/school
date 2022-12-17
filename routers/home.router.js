@@ -5,6 +5,6 @@ import About from "../controllers/about.controller.js";
 const router = new Router();
 
 router.get('/', MainhomeRouter.home);
-router.get("/about", About.aboutHome )
+router.get("/about", About.aboutHome );
 
 export default router
