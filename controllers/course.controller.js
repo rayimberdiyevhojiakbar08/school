@@ -7,5 +7,6 @@ class Course{
     }
 }
 
+
 export default new Course();
 
