@@ -5,6 +5,9 @@ class Course{
     detailPage(req, res){
         res.render("main/detail")
     }
+    CoursesPage(req, res){
+    res.render("main/courses")
+    }
 }
 
 

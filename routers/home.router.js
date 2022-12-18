@@ -15,5 +15,6 @@ router.get("/blogarchive", Blog.archivePage);
 router.get("/single", Blog.signlePage);
 router.get("/coursearchive", Course.archivePage);
 router.get("/detail", Course.detailPage);
+router.get("/courses", Course.CoursesPage);
 
 export default router
