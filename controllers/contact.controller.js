@@ -1,3 +1,5 @@
+
+
 class Contact{
     contactPage(req, res){
         res.render("main/contact")

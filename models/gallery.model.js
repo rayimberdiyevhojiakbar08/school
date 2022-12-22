@@ -1,0 +1,29 @@
+export default [
+    {
+        imgName:"laborotory1.jpg"
+    },
+    {
+        imgName:"laborotory2.jpg"
+    },
+    {
+        imgName:"laborotory3.jpg"
+    },
+    {
+        imgName:"infarmatika1.jpg"
+    },
+    {
+        imgName:"infarmatika2.jpg"
+    },
+    {
+        imgName:"laborotory3.jpg"
+    },
+    {
+        imgName:"ruslar1.jpg"
+    },
+    {
+        imgName:"ruslar2.jpg"
+    },
+    {
+        imgName:"football1.jpg"
+    },
+]
