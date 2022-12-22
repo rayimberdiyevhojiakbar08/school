@@ -1,10 +1,11 @@
-import data from "../homedatabase/home.js"
+import data from "../homedatabase/service.js"
+import slider from "../homedatabase/slider.js";
 
 class About{
     aboutHome(req, res){
-        res.render("main/about", { data } )
+        res.render("main/about", { data, slider })
     }
 }
-export default new About
+export default new About()
 
 

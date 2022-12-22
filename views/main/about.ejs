@@ -17,52 +17,22 @@
   <!-- Start Slider -->
   <section id="mu-slider">
     <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="assets/img/slider/1.jpg" alt="img">
-        </figure>
+   <% slider.forEach(item => {%>
+      <div class="mu-slider-single">
+        <div class="mu-slider-img">
+          <figure>
+            <img src="assets/img/slider/<%= item.imgnum %>.jpg" alt="img">
+          </figure>
+        </div>
+        <div class="mu-slider-content">
+          <h4><%= item.h4 %></h4>
+          <span></span>
+          <h2><%= item.h2 %></h2>
+          <p><%= item.p %></p>
+          <a href="#" class="mu-read-more-btn">Read More</a>
+        </div>
       </div>
-      <div class="mu-slider-content">
-        <h4>Xush kelibsiz</h4>
-        <span></span>
-        <h2>Bizning maktabda tanlab adashmadingiz</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
-    </div>
-    <!-- Start single slider item -->
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="assets/img/slider/2.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Tanlov uchun rahmat</h4>
-        <span></span>
-        <h2>Bizda malakali pedagoqlar dars beradi</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
-    </div>
-    <!-- Start single slider item -->
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="assets/img/slider/3.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Exclusivly For Education</h4>
-        <span></span>
-        <h2>Education For Everyone</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
-    </div>
+    <%})%>
     <!-- Start single slider item -->    
   </section>
   <!-- End Slider -->
@@ -81,9 +51,6 @@
               </div>
             <%}) %>
             <!-- Start single service -->
-           
-            
-                <!-- Start single service -->
           </div>
         </div>
       </div>

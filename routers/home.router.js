@@ -1,5 +1,4 @@
-import {Router} from 'express';
-import MainhomeRouter from '../controllers/home.controller.js';
+import { Router } from 'express';
 import About from "../controllers/about.controller.js";
 import Gallery from "../controllers/gallery.controller.js";
 import Contact from "../controllers/contact.controller.js";
