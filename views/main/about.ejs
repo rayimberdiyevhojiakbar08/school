@@ -104,42 +104,17 @@
       <div class="row">
         <div class="col-md-12">
           <div class="mu-abtus-counter-area">
-            <div class="row">
+            <div class="row">  
               <!-- Start counter item -->
-              <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="mu-abtus-counter-single">
-                  <span class="fa fa-book"></span>
-                  <h4 class="counter">568</h4>
-                  <p>Subjects</p>
+              <% counter.forEach(item => {%>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="mu-abtus-counter-single no-border">
+                    <span class="fa fa-user-secret"></span>
+                    <h4 class="counter"><%= item.h4 %></h4>
+                    <p><%= item.p %></p>
+                  </div>
                 </div>
-              </div>
-              <!-- End counter item -->
-              <!-- Start counter item -->
-              <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="mu-abtus-counter-single">
-                  <span class="fa fa-users"></span>
-                  <h4 class="counter">3500</h4>
-                  <p>O'quvchilar</p>
-                </div>
-              </div>
-              <!-- End counter item -->
-              <!-- Start counter item -->
-              <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="mu-abtus-counter-single">
-                  <span class="fa fa-flask"></span>
-                  <h4 class="counter">65</h4>
-                  <p>Modern Lab</p>
-                </div>
-              </div>
-              <!-- End counter item -->
-              <!-- Start counter item -->
-              <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="mu-abtus-counter-single no-border">
-                  <span class="fa fa-user-secret"></span>
-                  <h4 class="counter">250</h4>
-                  <p>O'QITUVCHILAR</p>
-                </div>
-              </div>
+              <%}) %>
               <!-- End counter item -->
             </div>
           </div>
@@ -322,52 +297,22 @@
         <div class="mu-testimonial-area">
           <div id="mu-testimonial-slide" class="mu-testimonial-content">
             <!-- start testimonial single item -->
-            <div class="mu-testimonial-item">
-              <div class="mu-testimonial-quote">
-                <blockquote>
-                  <p>Ilim uchun sariflagan vaqtingizni va pulingizga hech-qachon achinmaysiz.</p>
-                </blockquote>
+            <% testimonial.forEach(item => { %>
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p><%= item.p %></p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="assets/img/<%= item.img %>" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4><%= item.name %></h4>
+                  <span><%= item.kasp %></span>
+                </div>
               </div>
-              <div class="mu-testimonial-img">
-                <img src="assets/img/testimonial-1.png" alt="img">
-              </div>
-              <div class="mu-testimonial-info">
-                <h4>Benjamin Franklin</h4>
-                <span></span>
-              </div>
-            </div>
-            <!-- end testimonial single item -->
-            <!-- start testimonial single item -->
-            <div class="mu-testimonial-item">
-              <div class="mu-testimonial-quote">
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rerum soluta aperiam blanditiis obcaecati eveniet aliquam consequatur nobis eaque id.</p>
-                </blockquote>
-              </div>
-              <div class="mu-testimonial-img">
-                <img src="assets/img/testimonial-3.png" alt="img">
-              </div>
-              <div class="mu-testimonial-info">
-                <h4>Rebaca Michel</h4>
-                <span>Happy Parent</span>
-              </div>
-            </div>
-            <!-- end testimonial single item -->
-            <!-- start testimonial single item -->
-            <div class="mu-testimonial-item">
-              <div class="mu-testimonial-quote">
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rerum soluta aperiam blanditiis obcaecati eveniet aliquam consequatur nobis eaque id.</p>
-                </blockquote>
-              </div>
-              <div class="mu-testimonial-img">
-                <img src="assets/img/testimonial-2.png" alt="img">
-              </div>
-              <div class="mu-testimonial-info">
-                <h4>Stev Smith</h4>
-                <span>Happy Student</span>
-              </div>
-            </div>
+            <% }) %>
             <!-- end testimonial single item -->
           </div>
         </div>
