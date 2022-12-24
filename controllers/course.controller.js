@@ -3,7 +3,7 @@ import course from "../homedatabase/course.js";
 
 class Course{
     archivePage(req, res){
-        res.render("main/coursearchive")
+        res.render("main/coursearchive", { course })
     }
     detailPage(req, res){
         let fan = course[0]

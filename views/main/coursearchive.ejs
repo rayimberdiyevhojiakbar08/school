@@ -42,120 +42,27 @@
                 <!-- start course content container -->
                 <div class="mu-course-container">
                   <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                      <div class="mu-latest-course-single">
-                        <figure class="mu-latest-course-img">
-                          <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
-                          <figcaption class="mu-latest-course-imgcaption">
-                            <a href="#">Engineering </a>
-                            <span><i class="fa fa-clock-o"></i>75Days</span>
+                    <% course.forEach(item => {%>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="mu-latest-course-single">
+                          <figure class="mu-latest-course-img">
+                            <a href="<%= item.linc %>"><img src="assets/img/courses/<%= item.img %>" alt="img"></a>
+                            <figcaption class="mu-latest-course-imgcaption">
+                              <a href="<%= item.linc %>"><%= item.fan %></a>
+                            <span><i class="fa fa-clock-o"></i><%= item.kun %>Days</span>
                           </figcaption>
                         </figure>
                         <div class="mu-latest-course-single-content">
-                          <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                          <h4><a href="<%= item.linc %>"><%= item.h4 %></a></h4>
+                          <p><%= item.p %></p>
                           <div class="mu-latest-course-single-contbottom">
                             <a class="mu-course-details" href="#">Details</a>
-                            <span class="mu-course-price" href="#">$165.00</span>
+                            <span class="mu-course-price" href="#"><%= item.narxi %></span>
                           </div>
                         </div>
                       </div>
                     </div>                  
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/2.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
-                          <span><i class="fa fa-clock-o"></i>75Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href=""><img src="assets/img/courses/3.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
-                          <span><i class="fa fa-clock-o"></i>90Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div> 
-                  </div>                  
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/4.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
-                          <span><i class="fa fa-clock-o"></i>75Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/5.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
-                          <span><i class="fa fa-clock-o"></i>90Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div> 
-                  </div>                  
-                  <div class="col-md-6 col-sm-6">
-                    <div class="mu-latest-course-single">
-                      <figure class="mu-latest-course-img">
-                        <a href="#"><img src="assets/img/courses/6.jpg" alt="img"></a>
-                        <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
-                          <span><i class="fa fa-clock-o"></i>75Days</span>
-                        </figcaption>
-                      </figure>
-                      <div class="mu-latest-course-single-content">
-                        <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                        <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <span class="mu-course-price" href="#">$165.00</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    <%}) %>
                   </div>
                 </div>
                 <!-- end course content container -->
