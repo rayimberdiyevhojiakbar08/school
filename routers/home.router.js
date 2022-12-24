@@ -6,7 +6,6 @@ import Blog from "../controllers/blog.controller.js";
 import Course from "../controllers/course.controller.js";
 const router = new Router();
 
-//router.get('/', MainhomeRouter.home);
 router.get("/", About.aboutHome );
 router.get("/gallery", Gallery.galleryPage);
 router.get("/contact", Contact.contactPage);
@@ -15,4 +14,13 @@ router.get("/single", Blog.signlePage);
 router.get("/coursearchive", Course.archivePage);
 router.get("/detail", Course.detailPage);
 router.get("/working", Course.workingPage)
+
+router.get("/algebra", Course.algebra); //algebra kursni bosganda o'tishi uchun
+router.get("/fizika", Course.fizika);
+router.get("/kimyo", Course.kimya);
+router.get("/giologiya", Course.giologiya);
+router.get("/geografiya", Course.geografiya);
+router.get("/tarix", Course.tarix);
+
+
 export default router

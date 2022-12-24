@@ -139,54 +139,16 @@
             <!-- Start features content -->
             <div class="mu-features-content">
               <div class="row">
-                <div class="col-lg-4 col-md-4  col-sm-6">
-                  <div class="mu-single-feature">
-                    <span class="fa fa-book"></span>
-                    <h4>Professional Courses</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
-                    <a href="#">Read More</a>
+                <% features.forEach(item => {%>
+                  <div class="col-lg-4 col-md-4  col-sm-6">
+                    <div class="mu-single-feature">
+                      <span class="<%= item.span %>"></span>
+                      <h4><%= item.nameh4 %></h4>
+                      <p><%= item.p %></p>
+                      <a href="<%= item.linc %>">Read More</a>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="mu-single-feature">
-                    <span class="fa fa-users"></span>
-                    <h4>Expert Teachers</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="mu-single-feature">
-                    <span class="fa fa-laptop"></span>
-                    <h4>Online Learning</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="mu-single-feature">
-                    <span class="fa fa-microphone"></span>
-                    <h4>Audio Lessons</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="mu-single-feature">
-                    <span class="fa fa-film"></span>
-                    <h4>Video Lessons</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="mu-single-feature">
-                    <span class="fa fa-certificate"></span>
-                    <h4>Professional Certificate</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.</p>
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
+                <%}) %>
               </div>
             </div>
             <!-- End features content -->
@@ -217,14 +179,14 @@
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/<%= item.img %>.jpg" alt="img"></a>
+                    <a href="<%= item.linc %>"><img src="assets/img/courses/<%= item.img %>" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
-                      <a href="#"><%= item.fan %></a>
+                      <a href="<%= item.linc %>"><%= item.fan %></a>
                       <span><i class="fa fa-clock-o"></i><%= item.kun %>Days</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
-                    <h4><a href="#"><%= item.h4 %></a></h4>
+                    <h4><a href="<%= item.linc %>"><%= item.h4 %></a></h4>
                     <p><%= item.p %></p>
                     <div class="mu-latest-course-single-contbottom">
                       <a class="mu-course-details" href="#">Details</a>
@@ -341,19 +303,19 @@
                 <div class="col-md-4 col-sm-4">
                   <article class="mu-blog-single-item">
                     <figure class="mu-blog-single-img">
-                      <a href="#"><img src="assets/img/blog/blog-<%= item.img %>.jpg" alt="img"></a>
+                      <a href="/single"><img src="assets/img/blog/blog-<%= item.img %>.jpg" alt="img"></a>
                       <figcaption class="mu-blog-caption">
-                        <h3><a href="#"><%= item.h3 %></a></h3>
+                        <h3><a href="/single"><%= item.h3 %></a></h3>
                       </figcaption>                      
                     </figure>
                     <div class="mu-blog-meta">
-                      <a href="#"><%= item.admin %></a>
-                      <a href="#"><%= item.date %></a>
+                      <a href="/single"><%= item.admin %></a>
+                      <a href="/single"><%= item.date %></a>
                       <span><i class="fa fa-comments-o"></i><%= item.commit %></span>
                     </div>
                     <div class="mu-blog-description">
                       <p><%= item.p %></p>
-                      <a class="mu-read-more-btn" href="#">Read More</a>
+                      <a class="mu-read-more-btn" href="/single">Read More</a>
                     </div>
                   </article>
                 </div>

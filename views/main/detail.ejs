@@ -45,10 +45,10 @@
                     <div class="col-md-12">
                       <div class="mu-latest-course-single">
                         <figure class="mu-latest-course-img">
-                          <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
+                          <a href="#"><img src="assets/img/courses/<%= fan.img %>" alt="img"></a>
                           <figcaption class="mu-latest-course-imgcaption">
                             <a href="#">Drawing</a>
-                            <span><i class="fa fa-clock-o"></i>90Days</span>
+                            <span><i class="fa fa-clock-o"></i><%= fan.kun %>Days</span>
                           </figcaption>
                         </figure>
                         <div class="mu-latest-course-single-content">
@@ -133,25 +133,27 @@
                   <h3>Related Courses</h3>
                   <div class="mu-related-item-area">
                     <div id="mu-related-item-slide">
-                      <div class="col-md-6">
-                        <div class="mu-latest-course-single">
-                          <figure class="mu-latest-course-img">
-                            <a href="#"><img alt="img" src="assets/img/courses/1.jpg"></a>
-                            <figcaption class="mu-latest-course-imgcaption">
-                              <a href="#">Drawing</a>
-                              <span><i class="fa fa-clock-o"></i>90Days</span>
-                            </figcaption>
-                          </figure>
-                          <div class="mu-latest-course-single-content">
-                            <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
-                            <div class="mu-latest-course-single-contbottom">
-                              <a href="#" class="mu-course-details">Details</a>
-                              <span href="#" class="mu-course-price">$165.00</span>
+                      <% course.forEach(item => {%>
+                        <div class="col-md-6">
+                          <div class="mu-latest-course-single">
+                            <figure class="mu-latest-course-img">
+                              <a href="#"><img alt="img" src="assets/img/courses/<%= item.img %>"></a>
+                              <figcaption class="mu-latest-course-imgcaption">
+                                <a href="#">Drawing</a>
+                                <span><i class="fa fa-clock-o"></i>90Days</span>
+                              </figcaption>
+                            </figure>
+                            <div class="mu-latest-course-single-content">
+                              <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                              <div class="mu-latest-course-single-contbottom">
+                                <a href="#" class="mu-course-details">Details</a>
+                                <span href="#" class="mu-course-price">$165.00</span>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
+                      <%}) %>
                       <div class="col-md-6">
                         <div class="mu-latest-course-single">
                           <figure class="mu-latest-course-img">
