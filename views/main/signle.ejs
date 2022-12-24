@@ -157,76 +157,26 @@
                       <h3>5 Comments</h3>
                       <div class="comments">
                         <ul class="commentlist">
-                          <li>
-                            <div class="media">
+                          
+                            <% Contact.forEach(info => { %>
+                              <li>
+                                <div class="media">
                               <div class="media-left">    
                                 <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
                               </div>
                               <div class="media-body">
-                               <h4 class="author-name">David Muller</h4>
-                               <span class="comments-date"> Posted on 12th June, 2016</span>
-                               <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                               <h4 class="author-name"><%= info.name%></h4>
+                               <span class="comments-date"><%= info.subject%></span>
+                               <p><%= info.comment %></p>
                                <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
+                               <a class="btn btn-danger btn-sm" href="#">Delete <span class="fa fa-long-arrow-right"></span></a>
+
                               </div>
                             </div>
                           </li>
-                          <li>
-                            <div class="media">
-                              <div class="media-left">    
-                                <img alt="img" src="assets/img/testimonial-2.png" class="media-object news-img">
-                              </div>
-                              <div class="media-body">
-                               <h4 class="author-name">John Doe</h4>
-                               <span class="comments-date"> Posted on 12th June, 2016</span>
-                               <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                              </div>
-                            </div>
-                          </li>
-                          <ul class="children">
-                            <li class="author-comments">
-                              <div class="media">
-                                <div class="media-left">    
-                                  <img alt="img" src="assets/img/testimonial-3.png" class="media-object news-img">
-                                </div>
-                                <div class="media-body">
-                                 <h4 class="author-name">Admin</h4>
-                                 <span class="comments-date"> Posted on 12th June, 2016</span>
-                                 <span class="author-tag">Author</span>
-                                 <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                 <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                </div>
-                              </div>
-                            </li>
-                            <ul class="children">
-                              <li>
-                                <div class="media">
-                                  <div class="media-left">    
-                                    <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
-                                  </div>
-                                  <div class="media-body">
-                                   <h4 class="author-name">David Muller</h4>
-                                   <span class="comments-date"> Posted on 12th June, 2016</span>
-                                   <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                   <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </ul>
-                          <li>
-                            <div class="media">
-                              <div class="media-left">    
-                                <img alt="img" src="assets/img/testimonial-2.png" class="media-object news-img">
-                              </div>
-                              <div class="media-body">
-                               <h4 class="author-name">Jhon Doe</h4>
-                               <span class="comments-date"> Posted on 12th June, 2016</span>
-                               <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                              </div>
-                            </div>
-                          </li>
+                            <% }) %>
+                            
+                          <!--  -->
                         </ul>
                         <!-- comments pagination -->
                         <nav>

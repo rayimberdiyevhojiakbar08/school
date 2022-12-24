@@ -1,3 +1,4 @@
+import course from '../homedatabase/course.js';
 class Course{
     archivePage(req, res){
         res.render("main/coursearchive")

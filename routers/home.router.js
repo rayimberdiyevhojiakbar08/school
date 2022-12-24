@@ -29,5 +29,10 @@ router.get("/news4", Blog.news4)
 router.get("/news5", Blog.news5)
 router.get("/news6", Blog.news6)
 
+// post metod 
+// 
+router.post('/contact', Contact.Contact_);
+// 
+
 
 export default router
