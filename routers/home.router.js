@@ -22,5 +22,12 @@ router.get("/giologiya", Course.giologiya);
 router.get("/geografiya", Course.geografiya);
 router.get("/tarix", Course.tarix);
 
+router.get("/news1", Blog.news1)
+router.get("/news2", Blog.news2)
+router.get("/news3", Blog.news3)
+router.get("/news4", Blog.news4)
+router.get("/news5", Blog.news5)
+router.get("/news6", Blog.news6)
+
 
 export default router

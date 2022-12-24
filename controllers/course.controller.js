@@ -6,7 +6,8 @@ class Course{
         res.render("main/coursearchive")
     }
     detailPage(req, res){
-        res.render("main/detail", { course } )
+        let fan = course[0]
+        res.render("main/detail", { course, fan  } )
     }
     workingPage(req, res){
     res.render("main/working")

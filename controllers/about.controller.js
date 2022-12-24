@@ -10,7 +10,8 @@ import features from "../homedatabase/features.js";
 
 class About{
     aboutHome(req, res){
-        res.render("main/about", {features, data, slider, fromblog, teacherComtent, course, counter, testimonial })
+        const newfromblog = [fromblog[0], fromblog[1], fromblog[2]]
+        res.render("main/about", {features, data, slider, newfromblog, teacherComtent, course, counter, testimonial })
     }
 }
 export default new About()

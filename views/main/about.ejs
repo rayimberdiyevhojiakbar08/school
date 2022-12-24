@@ -299,23 +299,23 @@
           <!-- start from blog content   -->
           <div class="mu-from-blog-content">
             <div class="row">
-              <% fromblog.forEach(item => {%>
+              <% newfromblog.forEach(item => {  %>
                 <div class="col-md-4 col-sm-4">
                   <article class="mu-blog-single-item">
                     <figure class="mu-blog-single-img">
-                      <a href="/single"><img src="assets/img/blog/blog-<%= item.img %>.jpg" alt="img"></a>
+                      <a href="<%= item.linc %>"><img src="assets/img/blog/<%= item.img %>" alt="img"></a>
                       <figcaption class="mu-blog-caption">
-                        <h3><a href="/single"><%= item.h3 %></a></h3>
+                        <h3><a href="<%= item.linc %>"><%= item.h3 %></a></h3>
                       </figcaption>                      
                     </figure>
                     <div class="mu-blog-meta">
-                      <a href="/single"><%= item.admin %></a>
-                      <a href="/single"><%= item.date %></a>
+                      <a href="<%= item.linc %>"><%= item.admin %></a>
+                      <a href="<%= item.linc %>"><%= item.date %></a>
                       <span><i class="fa fa-comments-o"></i><%= item.commit %></span>
                     </div>
                     <div class="mu-blog-description">
                       <p><%= item.p %></p>
-                      <a class="mu-read-more-btn" href="/single">Read More</a>
+                      <a class="mu-read-more-btn" href="<%= item.linc %>">Read More</a>
                     </div>
                   </article>
                 </div>
