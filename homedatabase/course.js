@@ -7,6 +7,7 @@ export default [
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
         linc: "/algebra",
+     
     },
     {
         img: "2.jpg",
@@ -15,7 +16,8 @@ export default [
         h4: "Fizika uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/fizika"
+        linc: "/fizika",
+      
     },
     {
         img: "3.jpg",
@@ -24,7 +26,8 @@ export default [
         h4: "Kimya uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/kimyo"
+        linc: "/kimyo",
+      
     },
     {
         img: "4.jpg",
@@ -33,7 +36,8 @@ export default [
         h4: "Biologiya uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/giologiya"
+        linc: "/giologiya",
+       
     },
     {
         img: "5.jpg",
@@ -42,7 +46,8 @@ export default [
         h4: "Geografiya uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/geografiya"
+        linc: "/geografiya",
+       
     },
     {
         img: "6.jpg",
@@ -51,6 +56,6 @@ export default [
         h4: "Tarix uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/tarix"
+        linc: "/tarix",
     },
 ]
