@@ -7,38 +7,42 @@ import onlinelearning from "../homedatabase/onlineLearning.js";
 
 class Course{
     archivePage(req, res){
+
+        // res.render("main/coursearchive", { course, fan })
+
         res.render("main/coursearchive", { course })
+
     }
     detailPage(req, res){
         let fan = course[0]
-        res.render("main/detail", { course, fan  } )
+        res.render("main/detail", { course, fan} )
     }
     workingPage(req, res){
     res.render("main/working")
     }
     algebra(req, res){
         let fan = course[0]
-        res.render("main/detail", { fan, course } )
+        res.render("main/detail", { course, fan } )
     }
     fizika(req, res){
         let fan = course[1]
-        res.render('main/detail', { fan, course })
+        res.render('main/detail', { course, fan })
     }
     kimya(req, res){
         let fan = course[2]
-        res.render('main/detail', { fan, course })
+        res.render('main/detail', { course, fan })
     }
     giologiya(req, res){
         let fan = course[3]
-        res.render('main/detail', { fan, course })
+        res.render('main/detail', { course, fan })
     }
     geografiya(req, res){
         let fan = course[4]
-        res.render('main/detail', { fan, course })
+        res.render('main/detail', { course, fan })
     }
     tarix(req, res){
         let fan = course[5]
-        res.render('main/detail', { fan, course })
+        res.render('main/detail', { course, fan })
     }
 
     professionalcourses(req, res){
