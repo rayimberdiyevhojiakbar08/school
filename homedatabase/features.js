@@ -2,13 +2,13 @@ export default [
     {
         nameh4: "Professional Courses",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.",
-        linc: "/details",
+        linc: "/professionalcourses",
         span: "fa fa-book"
     },
     {
         nameh4: "Expert Teachers",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.",
-        linc: "#",
+        linc: "/expertteachers",
         span: "fa fa-users"
     },  {
         nameh4: "Online Learning",

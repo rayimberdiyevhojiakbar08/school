@@ -14,8 +14,27 @@ router.get("/blogarchive", Blog.archivePage);
 router.get("/single", Blog.signlePage);
 router.get("/coursearchive", Course.archivePage);
 router.get("/detail", Course.detailPage);
+
+router.get("/professionalcourses", Course.professionalcourses)
+router.get("/beckend", Course.backendt)
+router.get("/Frontend", Course.frontend)
+router.get("/3DGrafick", Course.grafic)
+router.get("/DataStructures", Course.datastr)
+router.get("/cplus", Course.cplus),
+router.get("/csharm", Course.csharm)
+
+router.get("/expertteachers", Course.expertteachers);
+router.get("/algebrateachers", Course.algebrateachers); //algebra kursni bosganda o'tishi uchun
+router.get("/fizikateachers", Course.fizikateachers);
+router.get("/kimyoteachers", Course.kimyateachers);
+router.get("/giologiyateachers", Course.giologiyateachers);
+router.get("/geografiyateachers", Course.geografiyateachers);
+router.get("/tarixteachers", Course.tarixteachers);
+
+
 router.get("/working", Course.workingPage);
 router.get("/popularnews", News.popularNews);
+
 
 router.get("/algebra", Course.algebra); //algebra kursni bosganda o'tishi uchun
 router.get("/fizika", Course.fizika);
