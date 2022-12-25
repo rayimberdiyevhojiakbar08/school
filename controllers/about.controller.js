@@ -13,6 +13,7 @@ class About{
         const newfromblog = [fromblog[0], fromblog[1], fromblog[2]]
         res.render("main/about", {features, data, slider, newfromblog, teacherComtent, course, counter, testimonial })
     }
+    
 }
 export default new About()
 

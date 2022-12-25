@@ -14,6 +14,8 @@ router.get("/single", Blog.signlePage);
 router.get("/coursearchive", Course.archivePage);
 router.get("/detail", Course.detailPage);
 router.get("/working", Course.workingPage)
+router.get("/professionalcourses", Course.professionalcourses)
+router.get("/expertteachers", Course.expertteachers);
 
 router.get("/algebra", Course.algebra); //algebra kursni bosganda o'tishi uchun
 router.get("/fizika", Course.fizika);
