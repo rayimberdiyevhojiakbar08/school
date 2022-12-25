@@ -6,15 +6,15 @@ import expertTeachers from "../homedatabase/expertTeachers.js";
 
 class Course{
     archivePage(req, res){
-<<<<<<< HEAD
-        res.render("main/coursearchive", { course, fan })
-=======
+
+        // res.render("main/coursearchive", { course, fan })
+
         res.render("main/coursearchive", { course })
->>>>>>> 72e013bd218e22b936fad115a1f3186be1ba9a71
+
     }
     detailPage(req, res){
         let fan = course[0]
-        res.render("main/detail", { course} )
+        res.render("main/detail", { course, fan} )
     }
     workingPage(req, res){
     res.render("main/working")
@@ -25,23 +25,23 @@ class Course{
     }
     fizika(req, res){
         let fan = course[1]
-        res.render('main/detail', { course })
+        res.render('main/detail', { course, fan })
     }
     kimya(req, res){
         let fan = course[2]
-        res.render('main/detail', { course })
+        res.render('main/detail', { course, fan })
     }
     giologiya(req, res){
         let fan = course[3]
-        res.render('main/detail', { course })
+        res.render('main/detail', { course, fan })
     }
     geografiya(req, res){
         let fan = course[4]
-        res.render('main/detail', { course })
+        res.render('main/detail', { course, fan })
     }
     tarix(req, res){
         let fan = course[5]
-        res.render('main/detail', { course })
+        res.render('main/detail', { course, fan })
     }
 
     professionalcourses(req, res){

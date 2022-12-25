@@ -7,11 +7,6 @@ export default [
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
         linc: "/algebra",
-<<<<<<< HEAD
-        
-     
-=======
->>>>>>> 72e013bd218e22b936fad115a1f3186be1ba9a71
     },
     {
         img: "courses/2.jpg",
