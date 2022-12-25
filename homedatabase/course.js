@@ -7,6 +7,7 @@ export default [
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
         linc: "/algebra",
+        
      
     },
     {
