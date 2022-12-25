@@ -31,6 +31,13 @@ router.get("/giologiyateachers", Course.giologiyateachers);
 router.get("/geografiyateachers", Course.geografiyateachers);
 router.get("/tarixteachers", Course.tarixteachers);
 
+router.get("/onlinelearning", Course.onlineLearning);
+router.get("/algebraonline", Course.algebraOnline); //algebra kursni bosganda o'tishi uchun
+router.get("/fizikaonline", Course.fizikaOnline);
+router.get("/kimyoonline", Course.kimyaOnline);
+router.get("/giologiyaonline", Course.giologiyaOnline);
+router.get("/geografiyaonline", Course.geografiyaOnline);
+router.get("/tarixonline", Course.tarixOnline);
 
 router.get("/working", Course.workingPage);
 router.get("/popularnews", News.popularNews);

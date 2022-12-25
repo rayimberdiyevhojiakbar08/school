@@ -2,6 +2,7 @@
 import course from "../homedatabase/course.js";
 import professionalCourses from "../homedatabase/professionalCourses.js";
 import expertTeachers from "../homedatabase/expertTeachers.js"; 
+import onlinelearning from "../homedatabase/onlineLearning.js";
 
 
 class Course{
@@ -108,7 +109,40 @@ class Course{
         let course = expertTeachers
         res.render('main/detail', { fan, course })
     }
-
+    onlineLearning(req, res){
+        let course = onlinelearning;
+        res.render("main/coursearchive", { course })
+    }
+    algebraOnline(req, res){
+        let fan = onlinelearning[0]
+        let course = onlinelearning;
+        res.render("main/detail", { fan, course } )
+    }
+    fizikaOnline(req, res){
+        let fan = onlinelearning[1]
+        let course = onlinelearning;
+        res.render('main/detail', { fan, course })
+    }
+    kimyaOnline(req, res){
+        let fan = onlinelearning[2]
+        let course = onlinelearning;
+        res.render('main/detail', { fan, course })
+    }
+    giologiyaOnline(req, res){
+        let fan = onlinelearning[3]
+        let course = onlinelearning;
+        res.render('main/detail', { fan, course })
+    }
+    geografiyaOnline(req, res){
+        let fan = onlinelearning[4]
+        let course = onlinelearning;
+        res.render('main/detail', { fan, course })
+    }
+    tarixOnline(req, res){
+        let fan = onlinelearning[5]
+        let course = onlinelearning;
+        res.render('main/detail', { fan, course })
+    }
 }   
 
 

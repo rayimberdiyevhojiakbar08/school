@@ -13,7 +13,7 @@ export default [
     },  {
         nameh4: "Online Learning",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.",
-        linc: "#",
+        linc: "/onlinelearning",
         span: "fa fa-laptop"
     },
     {
