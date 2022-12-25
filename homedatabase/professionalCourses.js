@@ -45,7 +45,7 @@ export default [
         h4: "C++ uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/C++",
+        linc: "/cplus",
        
     },
     {
@@ -55,6 +55,6 @@ export default [
         h4: "C# uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/C#",
+        linc: "/csharm",
     },
 ]

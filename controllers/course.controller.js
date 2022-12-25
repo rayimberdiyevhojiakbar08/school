@@ -44,11 +44,70 @@ class Course{
         let course = professionalCourses
         res.render("main/coursearchive",{ course })
     }
+    backendt(req, res){
+        let fan = professionalCourses[0]
+        let course = professionalCourses
+        res.render("main/detail", { fan, course } )
+    }
+    frontend(req, res){
+        let fan = professionalCourses[1]
+        let course = professionalCourses
+        res.render('main/detail', { fan, course })
+    }
+    grafic(req, res){
+        let fan = professionalCourses[2]
+        let course = professionalCourses
+        res.render('main/detail', { fan, course })
+    }
+    datastr(req, res){
+        let fan = professionalCourses[3]
+        let course = professionalCourses
+        res.render('main/detail', { fan, course })
+    }
+    cplus(req, res){
+        let fan = professionalCourses[4]
+        let course = professionalCourses
+        res.render('main/detail', { fan, course })
+    }
+    csharm(req, res){
+        let fan = professionalCourses[5]
+        let course = professionalCourses
+        res.render('main/detail', { fan, course })
+    }
     expertteachers(req, res){
         let course = expertTeachers;
         res.render("main/coursearchive", { course })
     }
-
+    algebrateachers(req, res){
+        let fan = expertTeachers[0]
+        let course = expertTeachers
+        res.render("main/detail", { fan, course } )
+    }
+    fizikateachers(req, res){
+        let fan = expertTeachers[1]
+        let course = expertTeachers
+        res.render('main/detail', { fan, course })
+    }
+    kimyateachers(req, res){
+        let fan = expertTeachers[2]
+        let course = expertTeachers
+        res.render('main/detail', { fan, course })
+    }
+    giologiyateachers(req, res){
+        let fan = expertTeachers[3]
+        let course = expertTeachers
+        res.render('main/detail', { fan, course })
+    }
+    geografiyateachers(req, res){
+        let fan = expertTeachers[4]
+        let course = expertTeachers
+        res.render('main/detail', { fan, course })
+    }
+    tarixteachers(req, res){
+        let fan = expertTeachers[5]
+        let course = expertTeachers
+        res.render('main/detail', { fan, course })
+    }
 
 }   
 
