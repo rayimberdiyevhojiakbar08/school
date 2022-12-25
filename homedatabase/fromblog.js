@@ -2,9 +2,9 @@ export default [
     {
         img: "blog-1.jpg",
         h3: "Lorem ipsum dolor sit amet.",
-        admin: "By Admin",
-        date: "02 June 2016",
-        commit: "0",
+        admin: "By Obuljon",
+        date: "24.12.2022",
+        commit: "1000",
         p:"",
         linc: "/news1",
         next: "/news2",

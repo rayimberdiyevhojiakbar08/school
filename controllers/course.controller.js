@@ -1,6 +1,8 @@
+
 import course from "../homedatabase/course.js";
 import professionalCourses from "../homedatabase/professionalCourses.js";
 import expertTeachers from "../homedatabase/expertTeachers.js"; 
+
 
 class Course{
     archivePage(req, res){
@@ -15,7 +17,7 @@ class Course{
     }
     algebra(req, res){
         let fan = course[0]
-        res.redrict("main/detail", { fan, course } )
+        res.render("main/detail", { fan, course } )
     }
     fizika(req, res){
         let fan = course[1]

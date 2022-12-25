@@ -1,6 +1,8 @@
 import express from 'express';
+import { connect } from 'mongoose';
 import layout from 'express-ejs-layouts';
 import HomeRouter from './routers/home.router.js';
+connect('mongodb://localhost/maktab', {useNewUrlParser: true, useUnifiedTopology: true});
 const app = express();
 
 app.set('view engine', 'ejs');
