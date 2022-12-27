@@ -2,7 +2,7 @@ export default [
     {
         nameh4: "Professional Courses",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.",
-        linc: "#",
+        linc: "/detail",
         span: "fa fa-book"
     },
     {
