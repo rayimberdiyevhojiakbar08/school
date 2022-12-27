@@ -24,12 +24,8 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
-<<<<<<< HEAD
-    "mongoose": "^6.8.1"
-=======
     "express-session": "^1.17.3",
     "mongoose": "^6.8.1",
     "multer": "^1.4.5-lts.1"
->>>>>>> 1009c534ff22f87ce0c829b1736b87558af928df
   }
 }
