@@ -1,4 +1,5 @@
 import RegisterBase from '../models/register.model.js';
+import path from 'path';
 import { compare } from 'bcrypt';
 
 class Singin {
@@ -20,6 +21,7 @@ class Singin {
         } else {
             return res.redirect('/singin');
         }
+        console.log(path.resolve());
     }
 }
  
