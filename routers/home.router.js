@@ -50,7 +50,7 @@ router.get("/giologiyaonline", Course.giologiyaOnline);
 router.get("/geografiyaonline", Course.geografiyaOnline);
 router.get("/tarixonline", Course.tarixOnline);
 
-router.get("/working", IsAuth.isAuth, Course.workingPage);
+// router.get("/working", IsAuth.isAuth, Course.workingPage);
 router.get("/popularnews", News.popularNews);
 
 
