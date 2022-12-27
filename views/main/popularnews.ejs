@@ -1,20 +1,4 @@
 
-  <!-- Start search box -->
-  <div id="mu-search">
-    <div class="mu-search-area">      
-      <button class="mu-search-close"><span class="fa fa-close"></span></button>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">            
-            <form class="mu-search-form">
-              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End search box -->
  <!-- Page breadcrumb -->
  <section id="mu-page-breadcrumb">
    <div class="container">
@@ -55,6 +39,7 @@
                           <a href="<%= news.linc %>"><%= news.admin %></a>
                           <a href="<%= news.linc %>"><%= news.date %></a>
                           <span><i class="fa fa-comments-o"></i><%= news.commit %></span>
+                          <a href="/like"><i class="bi bi-hand-thumbs-up">100</i></a>
                         </div>
                         <div class="mu-blog-description">
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
@@ -96,7 +81,7 @@
                             <li>SOCIAL SHARE :</li>
                             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                             <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
                             <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
                           </ul>
                         </div>
@@ -290,61 +275,7 @@
                 </div>
                 <!-- end respond form -->
               </div>
-              <div class="col-md-3">
-                <!-- start sidebar -->
-                <aside class="mu-sidebar">
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Categories</h3>
-                    <ul class="mu-sidebar-catg">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="">Web Development</a></li>
-                      <li><a href="">Math</a></li>
-                      <li><a href="">Physics</a></li>
-                      <li><a href="">Camestry</a></li>
-                      <li><a href="">English</a></li>
-                    </ul>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Popular News</h3>
-                    <div class="mu-sidebar-popular-courses">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/1.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Medical Science</a></h4>                      
-                        </div>
-                      </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/2.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Web Design</a></h4>                      
-                        </div>
-                      </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/3.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Health & Sports</a></h4>                      
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                 
-                  
-             </div>
+              <%- include('../parcial/sidebar') %>
            </div>
          </div>
        </div>
