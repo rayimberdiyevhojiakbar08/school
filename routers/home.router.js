@@ -11,6 +11,13 @@ import IsAuth from '../controllers/isasuth.controller.js';
 import LogOut from '../controllers/logout.controller.js';
 const router = new Router();
 
+router.get("/", About.aboutHome );
+router.get("/gallery", Gallery.galleryPage);
+router.get("/contact", Contact.contactPage);
+router.get("/blogarchive", Blog.archivePage);
+router.get("/single", Blog.signlePage);
+router.get("/coursearchive", Course.archivePage);
+router.get("/detail", Course.detailPage);
 router.get("/", IsAuth.isAuth, About.aboutHome );
 router.get("/gallery", IsAuth.isAuth, Gallery.galleryPage);
 router.get("/contact", IsAuth.isAuth, Contact.contactPage);
