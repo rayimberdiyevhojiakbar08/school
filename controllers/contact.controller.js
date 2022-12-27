@@ -7,6 +7,10 @@ class Contact{
         await ContactBase.create(req.body);
         res.redirect('/single');
     }
+    async deletePage(req, res) {
+        await ContactBase.findByIdAndDelete(req.params.id);
+        res.redirect('/single');
+    }
 }
 
 export default new Contact();
