@@ -9,9 +9,6 @@ class Course{
         let fan = course[0]
         res.render("main/detail", { course, fan  } )
     }
-    workingPage(req, res){
-    res.render("main/working")
-    }
     algebra(req, res){
         let fan = course[0]
         res.render("main/detail", { fan, course } )
