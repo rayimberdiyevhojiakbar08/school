@@ -44,7 +44,6 @@ router.get("/geografiyaonline", Course.geografiyaOnline);
 router.get("/tarixonline", Course.tarixOnline);
 
 router.get("/working", IsAuth.isAuth, Course.workingPage);
-router.get("/popularnews", News.popularNews);
 
 
 router.get("/algebra", IsAuth.isAuth, Course.algebra); //algebra kursni bosganda o'tishi uchun
@@ -68,13 +67,14 @@ router.get('/delete/:id', IsAuth.isAuth, Contact.deletePage);
 router.post('/contact', IsAuth.isAuth, Contact.Contact_);
 // 
 
+router.get("/popularnews", News.popularNews);
 //popularnews
-router.get("/news1", IsAuth.isAuth, News.news1);
-router.get("/news2", IsAuth.isAuth, News.news2);
-router.get("/news3", IsAuth.isAuth, News.news3);
-router.get("/news4", IsAuth.isAuth, News.news4);
-router.get("/news5", IsAuth.isAuth, News.news5);
-router.get("/news6", IsAuth.isAuth, News.news6);
+router.get("/news01", IsAuth.isAuth, News.news1);
+router.get("/news02", IsAuth.isAuth, News.news2);
+router.get("/news03", IsAuth.isAuth, News.news3);
+router.get("/news04", IsAuth.isAuth, News.news4);
+router.get("/news05", IsAuth.isAuth, News.news5);
+router.get("/news06", IsAuth.isAuth, News.news6);
 
 // SingIn va SingUp  
 router.get('/singup', SingUp.singupPage);
