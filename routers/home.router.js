@@ -11,13 +11,6 @@ import IsAuth from '../controllers/isasuth.controller.js';
 import LogOut from '../controllers/logout.controller.js';
 const router = new Router();
 
-router.get("/", About.aboutHome );
-router.get("/gallery", Gallery.galleryPage);
-router.get("/contact", Contact.contactPage);
-router.get("/blogarchive", Blog.archivePage);
-router.get("/single", Blog.signlePage);
-router.get("/coursearchive", Course.archivePage);
-router.get("/detail", Course.detailPage);
 router.get("/", IsAuth.isAuth, About.aboutHome );
 router.get("/gallery", IsAuth.isAuth, Gallery.galleryPage);
 router.get("/contact", IsAuth.isAuth, Contact.contactPage);
@@ -51,7 +44,6 @@ router.get("/geografiyaonline", Course.geografiyaOnline);
 router.get("/tarixonline", Course.tarixOnline);
 
 router.get("/working", IsAuth.isAuth, Course.workingPage);
-router.get("/popularnews", News.popularNews);
 
 
 router.get("/algebra", IsAuth.isAuth, Course.algebra); //algebra kursni bosganda o'tishi uchun
@@ -61,14 +53,6 @@ router.get("/giologiya", IsAuth.isAuth, Course.giologiya);
 router.get("/geografiya", IsAuth.isAuth, Course.geografiya);
 router.get("/tarix", IsAuth.isAuth, Course.tarix);
 
-
-router.get("/news1", Blog.news1);
-router.get("/news2", Blog.news2);
-router.get("/news3", Blog.news3);
-router.get("/news4", Blog.news4);
-router.get("/news5", Blog.news5);
-router.get("/news6", Blog.news6);
-
 router.get("/news1", IsAuth.isAuth, Blog.news1);
 router.get("/news2", IsAuth.isAuth, Blog.news2);
 router.get("/news3", IsAuth.isAuth, Blog.news3);
@@ -76,28 +60,21 @@ router.get("/news4", IsAuth.isAuth, Blog.news4);
 router.get("/news5", IsAuth.isAuth, Blog.news5);
 router.get("/news6", IsAuth.isAuth, Blog.news6);
 
-router.get('/delete/:id', IsAuth.isAuth, Contact.deletePage)
+router.get('/delete/:id', IsAuth.isAuth, Contact.deletePage);
+
 // post metod 
 // 
 router.post('/contact', IsAuth.isAuth, Contact.Contact_);
 // 
 
+router.get("/popularnews", News.popularNews);
 //popularnews
-
-router.get("/popularnews1", News.news1);
-router.get("/popularnews2", News.news2);
-router.get("/popularnews3", News.news3);
-router.get("/popularnews4", News.news4);
-router.get("/popularnews5", News.news5);
-router.get("/popularnews6", News.news6);
-
-router.get("/news1", IsAuth.isAuth, News.news1);
-router.get("/news2", IsAuth.isAuth, News.news2);
-router.get("/news3", IsAuth.isAuth, News.news3);
-router.get("/news4", IsAuth.isAuth, News.news4);
-router.get("/news5", IsAuth.isAuth, News.news5);
-router.get("/news6", IsAuth.isAuth, News.news6);
-
+router.get("/news01", IsAuth.isAuth, News.news1);
+router.get("/news02", IsAuth.isAuth, News.news2);
+router.get("/news03", IsAuth.isAuth, News.news3);
+router.get("/news04", IsAuth.isAuth, News.news4);
+router.get("/news05", IsAuth.isAuth, News.news5);
+router.get("/news06", IsAuth.isAuth, News.news6);
 
 // SingIn va SingUp  
 router.get('/singup', SingUp.singupPage);
