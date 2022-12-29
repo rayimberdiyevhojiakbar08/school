@@ -4,7 +4,7 @@ export default [
         fan: "Algebra",
         kun: "210",
         h4: "Algebra uchun yangi Kurs",
-        p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun MATEMATIKA tayyorgarlik kursiga qabul qilinadi",
         narxi: "$165.00",
         linc: "/algebra",
     },
@@ -13,7 +13,7 @@ export default [
         fan: "Fizika",
         kun: "210",
         h4: "Fizika uchun yangi Kurs",
-        p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
+        p: "202023 yil mart oyidan boshlab o'quv markazi 2023 o'quv yili uchun Abituriyentlar uchun Fizika tayyorgarlik kursiga qabul qilinadi",
         narxi: "$165.00",
         linc: "/fizika",
       
@@ -23,7 +23,7 @@ export default [
         fan: "Kimyo",
         kun: "210",
         h4: "Kimya uchun yangi Kurs",
-        p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Kimyo tayyorgarlik kursiga qabul qilinadi",
         narxi: "$165.00",
         linc: "/kimyo",
       
@@ -33,7 +33,7 @@ export default [
         fan: "Biologiya",
         kun: "102",
         h4: "Biologiya uchun yangi Kurs",
-        p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Biologiya tayyorgarlik kursiga qabul qilinad",
         narxi: "$165.00",
         linc: "/giologiya",
        
@@ -43,7 +43,7 @@ export default [
         fan: "Geografiya",
         kun: "75",
         h4: "Geografiya uchun yangi Kurs",
-        p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Geografiya tayyorgarlik kursiga qabul qilinad",
         narxi: "$165.00",
         linc: "/geografiya",
        
@@ -53,7 +53,7 @@ export default [
         fan: "Tarix",
         kun: "210",
         h4: "Tarix uchun yangi Kurs",
-        p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Tarix tayyorgarlik kursiga qabul qilinad",
         narxi: "$165.00",
         linc: "/tarix",
     },
