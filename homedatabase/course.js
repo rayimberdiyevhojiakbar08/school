@@ -33,7 +33,7 @@ export default [
         fan: "Biologiya",
         kun: "102",
         h4: "Biologiya uchun yangi Kurs",
-        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Biologiya tayyorgarlik kursiga qabul qilinad",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Biologiya tayyorgarlik kursiga qabul qilinadi",
         narxi: "$165.00",
         linc: "/giologiya",
        
@@ -43,7 +43,7 @@ export default [
         fan: "Geografiya",
         kun: "75",
         h4: "Geografiya uchun yangi Kurs",
-        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Geografiya tayyorgarlik kursiga qabul qilinad",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Geografiya tayyorgarlik kursiga qabul qilinadi",
         narxi: "$165.00",
         linc: "/geografiya",
        
@@ -53,7 +53,7 @@ export default [
         fan: "Tarix",
         kun: "210",
         h4: "Tarix uchun yangi Kurs",
-        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Tarix tayyorgarlik kursiga qabul qilinad",
+        p: "2023 yil mart oyidan boshlab o'quv markazi 2024 o'quv yili uchun Abituriyentlar uchun Tarix tayyorgarlik kursiga qabul qilinadi",
         narxi: "$165.00",
         linc: "/tarix",
     },
