@@ -83,9 +83,12 @@
                   </ul>
                 </li>            
                 <li><a href="/contact">Aloqa</a></li>    
-                <li><a href="/popularnews">Popular news</a></li> 
-              <li class="active"><a href="/logout">LogOut</a></li>            
-
+                <li><a href="/popularnews">Popular news</a></li>
+                <% if(!user){%>
+                  <li class="active"><a href="/logout">LogOut</a></li>            
+                <%}else {%> 
+                  <li class="active"><a href="/user">User</a></li>
+                <%}%>
             <% } %>
                    
             <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>

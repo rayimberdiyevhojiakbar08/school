@@ -19,39 +19,12 @@ router.get("/single", IsAuth.isAuth, Blog.signlePage);
 router.get("/coursearchive", IsAuth.isAuth, Course.archivePage);
 router.get("/detail", IsAuth.isAuth, Course.detailPage);
 
-router.get("/professionalcourses", IsAuth.isAuth, Course.professionalcourses)
-router.get("/beckend", IsAuth.isAuth, Course.backendt)
-router.get("/Frontend", IsAuth.isAuth, Course.frontend)
-router.get("/3DGrafick", IsAuth.isAuth, Course.grafic)
-router.get("/DataStructures", IsAuth.isAuth, Course.datastr)
-router.get("/cplus", IsAuth.isAuth, Course.cplus),
-router.get("/csharm", IsAuth.isAuth, Course.csharm)
-
-router.get("/expertteachers", IsAuth.isAuth, Course.expertteachers);
-router.get("/algebrateachers", IsAuth.isAuth, Course.algebrateachers); //algebra kursni bosganda o'tishi uchun
-router.get("/fizikateachers", IsAuth.isAuth, Course.fizikateachers);
-router.get("/kimyoteachers", IsAuth.isAuth, Course.kimyateachers);
-router.get("/giologiyateachers", IsAuth.isAuth, Course.giologiyateachers);
-router.get("/geografiyateachers", IsAuth.isAuth, Course.geografiyateachers);
-router.get("/tarixteachers", IsAuth.isAuth, Course.tarixteachers);
-
-router.get("/onlinelearning", Course.onlineLearning);
-router.get("/algebraonline", Course.algebraOnline); //algebra kursni bosganda o'tishi uchun
-router.get("/fizikaonline", Course.fizikaOnline);
-router.get("/kimyoonline", Course.kimyaOnline);
-router.get("/giologiyaonline", Course.giologiyaOnline);
-router.get("/geografiyaonline", Course.geografiyaOnline);
-router.get("/tarixonline", Course.tarixOnline);
-
-router.get("/working", IsAuth.isAuth, Course.workingPage);
-
-
-router.get("/algebra", IsAuth.isAuth, Course.algebra); //algebra kursni bosganda o'tishi uchun
-router.get("/fizika", IsAuth.isAuth, Course.fizika);
-router.get("/kimyo", IsAuth.isAuth, Course.kimya);
-router.get("/giologiya", IsAuth.isAuth, Course.giologiya);
-router.get("/geografiya", IsAuth.isAuth, Course.geografiya);
-router.get("/tarix", IsAuth.isAuth, Course.tarix);
+router.get("/professionalcourses", IsAuth.isAuth, About.proFessionalCourses)
+router.get("/expertteachers", IsAuth.isAuth, About.expertteachers); //algebra kursni bosganda o'tishi uchun
+router.get("/onlinelearning",IsAuth.isAuth, About.onlineLearning);
+router.get("/audioLessons",IsAuth.isAuth, About.audioLessons);
+router.get("/scientificfilms",IsAuth.isAuth, About.scientificfilms)
+router.get("/detail:_id",Course.ourFeatures)
 
 router.get("/news1", IsAuth.isAuth, Blog.news1);
 router.get("/news2", IsAuth.isAuth, Blog.news2);
@@ -67,14 +40,15 @@ router.get('/delete/:id', IsAuth.isAuth, Contact.deletePage);
 router.post('/contact', IsAuth.isAuth, Contact.Contact_);
 // 
 
-router.get("/popularnews", News.popularNews);
 //popularnews
+router.get("/popularnews", News.popularNews);
 router.get("/news01", IsAuth.isAuth, News.news1);
 router.get("/news02", IsAuth.isAuth, News.news2);
 router.get("/news03", IsAuth.isAuth, News.news3);
 router.get("/news04", IsAuth.isAuth, News.news4);
 router.get("/news05", IsAuth.isAuth, News.news5);
 router.get("/news06", IsAuth.isAuth, News.news6);
+
 
 // SingIn va SingUp  
 router.get('/singup', SingUp.singupPage);

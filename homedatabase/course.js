@@ -6,7 +6,8 @@ export default [
         h4: "Algebra uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/algebra",
+        _id: "algebra",
+        title: "Algebra",
     },
     {
         img: "courses/2.jpg",
@@ -15,8 +16,8 @@ export default [
         h4: "Fizika uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/fizika",
-      
+        _id: "fizika",
+        title: "Fizika",
     },
     {
         img: "courses/3.jpg",
@@ -25,8 +26,8 @@ export default [
         h4: "Kimya uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/kimyo",
-      
+        _id: "kimyo",
+        title:"Kimyo",
     },
     {
         img: "courses/4.jpg",
@@ -35,8 +36,8 @@ export default [
         h4: "Biologiya uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/giologiya",
-       
+        _id: "giologiya",
+        title: "Biologiya"
     },
     {
         img: "courses/5.jpg",
@@ -45,8 +46,8 @@ export default [
         h4: "Geografiya uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/geografiya",
-       
+        _id: "geografiya",
+        title:"Geografiya"
     },
     {
         img: "courses/6.jpg",
@@ -55,6 +56,7 @@ export default [
         h4: "Tarix uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/tarix",
+        _id: "tarix",
+        title:"Tarix"
     },
 ]

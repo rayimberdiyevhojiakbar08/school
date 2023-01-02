@@ -6,7 +6,9 @@ export default [
         h4: "beckend uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/beckend",
+        _id: "beckend",
+        title:"beckend",
+
     },
     {
         img: "ourfeatures/2.jpg",
@@ -15,7 +17,9 @@ export default [
         h4: "Frontend uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/Frontend",
+        _id: "Frontend",
+        title:"Frontend",
+
       
     },
     {
@@ -25,7 +29,8 @@ export default [
         h4: "3D Grafick uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/3DGrafick",
+        _id: "3DGrafick",
+        title:"3D Grafick"
       
     },
     {
@@ -35,7 +40,8 @@ export default [
         h4: "Data Structures uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/DataStructures",
+        _id: "datastructures",
+        title:"Data Structures"
        
     },
     {
@@ -45,16 +51,20 @@ export default [
         h4: "C++ uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/cplus",
+        _id: "cplus",
+        title:"C++",
+
        
     },
     {
         img: "ourfeatures/6.jpg",
-        fan: "C#",
+        fan: "C++++",
         kun: "210",
         h4: "C# uchun yangi Kurs",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "$165.00",
-        linc: "/csharm",
+        _id: "csharm",
+        title:"C++++",
+
     },
 ]
