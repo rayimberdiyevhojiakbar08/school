@@ -1,5 +1,11 @@
 import RegisterBase from '../models/register.model.js';
 import { hash } from 'bcrypt';
+import { extname, dirname, resolve } from "path";
+import { fileURLToPath } from "url";
+import { unlinkSync, renameSync } from "fs";
+
+
+
  class Singup {
    singupPage(req, res) {
         res.render('main/singup');

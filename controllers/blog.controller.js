@@ -7,30 +7,32 @@ class Blog{
     async signlePage(req, res) {
         const news = fromblog[0];
         const Contact = await ContactBase.find();
-        res.render("main/signle", { fromblog, news, Contact});
+        res.render("main/signle", { fromblog, news, Contact,});
     }
-    news1(req, res){
-        const news = fromblog[0]
-        res.render("main/signle", { fromblog, news } )
+    async news1(req, res){
+        const news = fromblog[0];
+        const Contact = await ContactBase.find();
+        res.render("main/signle", { fromblog, news, Contact } )
     }
     async news2(req, res) {
         const news = fromblog[1]
         const Contact = await ContactBase.find();
-        res.render("main/signle", { fromblog, news, Contact});
+        res.render("main/signle", { fromblog, news, Contact });
     }
     async news3(req, res) {
         const news = fromblog[2]
         const Contact = await ContactBase.find();
-        res.render("main/signle", { fromblog, news, Contact});
+        res.render("main/signle", { fromblog, news, Contact, });
     }
     async news4(req, res) {
         const news = fromblog[3]
         const Contact = await ContactBase.find();
-        res.render("main/signle", { fromblog, news, Contact});
+        res.render("main/signle", { fromblog, news, Contact, });
     }
     async news5(req, res) {
         const news = fromblog[4]
-        res.render("main/signle", { fromblog, news } )
+        const Contact = await ContactBase.find();
+        res.render("main/signle", { fromblog, news, Rbase, Contact} )
     }
     async news6(req, res) {
         const news = fromblog[5]

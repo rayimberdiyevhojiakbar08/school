@@ -21,7 +21,7 @@ class Singin {
         } else {
             return res.redirect('/singin');
         }
-        console.log(path.resolve());
+        console.log(req.file);
     }
 }
  

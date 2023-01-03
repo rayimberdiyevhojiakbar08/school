@@ -50,7 +50,11 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="mu-contact-left">
-                  <form class="contactform" action="/contact" method="post">                  
+                  <form class="contactform" action="/contact" method="post" enctype="multipart/form-data">                  
+                    <p class="comment-form-author">
+                      <label for="name">Photo <span class="required"></span></label>
+                      <input type="file" required="required" size="30" id="img" name="img">
+                    </p>
                     <p class="comment-form-author">
                       <label for="name">Name <span class="required">*</span></label>
                       <input type="text" required="required" size="30" id="name" name="name">
