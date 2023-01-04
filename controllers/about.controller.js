@@ -12,7 +12,7 @@ import expertTeachers from "../homedatabase/expertTeachers.js"
 import onlinelearning from "../homedatabase/onlineLearning.js" 
 import audiolessons from "../homedatabase/audiolessons.js";
 import scientificfilms from "../homedatabase/scientificfilms.js";
-
+import professionalcertificate from "../homedatabase/professionalCertificate.js";
 class About{
     aboutHome(req, res){
         const newfromblog = [fromblog[0], fromblog[1], fromblog[2]]
@@ -37,7 +37,11 @@ class About{
     }
     scientificfilms(req, res){
         let course = scientificfilms;
-        res.render("main/scientificfilms", { course, title: "Ilmiy filmlar" }) 
+        res.render("main/coursearchive", { course, title: "Ilmiy filmlar" }) 
+    }
+    professionalCertificate(req, res){
+        const course = professionalcertificate;
+        res.render("main/coursearchive", { course, title: "Professional Certificate" })
     }
 }
 export default new About()

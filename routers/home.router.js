@@ -24,6 +24,7 @@ router.get("/expertteachers", IsAuth.isAuth, About.expertteachers); //algebra ku
 router.get("/onlinelearning",IsAuth.isAuth, About.onlineLearning);
 router.get("/audioLessons",IsAuth.isAuth, About.audioLessons);
 router.get("/scientificfilms",IsAuth.isAuth, About.scientificfilms)
+router.get("/professionalcertificate", About.professionalCertificate)
 router.get("/detail:_id",Course.ourFeatures)
 
 router.get("/news1", IsAuth.isAuth, Blog.news1);

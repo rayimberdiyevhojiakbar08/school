@@ -5,7 +5,7 @@ import expertTeachers from "../homedatabase/expertTeachers.js";
 import onlinelearning from "../homedatabase/onlineLearning.js";
 import audiolessons from "../homedatabase/audiolessons.js";
 import scientificfilms from "../homedatabase/scientificfilms.js";
-
+import professionalCertificate from "../homedatabase/professionalCertificate.js";
 class Course{
     archivePage(req, res){
         res.render("main/coursearchive", { course, title:"Kurslar" })
@@ -39,8 +39,11 @@ class Course{
             const fan = scientificfilms.find(item => item === id)
             const course = scientificfilms;
             res.render("main/detail", { fan, course })
+        }else if (professionalCertificate.find(item => item === id)){
+            const fan = professionalCertificate.find(item => item === id)
+            const course = professionalCertificate;
+            res.render("main/detail", { fan, course })
         }
-        
     }
 
 

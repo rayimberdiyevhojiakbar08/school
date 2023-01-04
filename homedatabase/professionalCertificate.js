@@ -1,52 +1,52 @@
 export default [
     {
-        img: "scientificfilms/1.jpg",
-        fan: "Tarixiy filmlar",
+        img: "professionalCertificate/1.jpg",
+        fan: "Diplom",
         kun: "",
-        h4: "Qadimgi misr",
+        h4: "Bitruvchilar uchun diplom",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "",
-        _id: "tarixiyfilmlar",
-        title:"Tarix",
+        _id: "Bitruvchilaruchundiplom",
+        title:"Diplom",
 
     },
     {
-        img: "scientificfilms/2.jpg",
-        fan: "Ilmiy filimlar",
-        kun: "210",
-        h4: "fizika faniga ravnaq qo'shgan olim",
+        img: "professionalCertificate/2.jpg",
+        fan: "Ilmiy Olinpiyada",
+        kun: "",
+        h4: "Ilmiy Olinpiyada g'lib bo'lgan oquvchilar Uchun",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "",
-        _id: "ilmiyfilimlar",
-        title:"Ilmiy filimlar",
+        _id: "Olinpiyadag'libbo'lganoquvchilar",
+        title:"Olinpiyada",
 
       
     },
     {
-        img: "scientificfilms/3.jpg",
-        fan: "Ilmiy filimlar",
+        img: "professionalCertificate/3.jpg",
+        fan: "Kichik Daho",
         kun: "",
-        h4: "Algebra faniga ravnaq qo'shgan olim",
+        h4: "Maktabimixni kichik daholari Uchun",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "",
-        _id: "ilmiyfilmlar2",
-        title:"Ilmiy filimlar"
+        _id: "Maktabimixnikichikdaholari",
+        title:"Kichik Daholari"
       
     },
     {
-        img: "scientificfilms/4.jpg",
-        fan: "Ilmiy filimlar",
+        img: "professionalCertificate/4.jpg",
+        fan: "Sportchilarimiz uchun",
         kun: "",
-        h4: "Kimyo faniga ravnaq qoshgan olim haqida",
+        h4: "Sportchilarimiz uchun fahir yolliq",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
         narxi: "",
-        _id: "Ilmiy filimlar3",
-        title:"Ilmiy filimlar"
+        _id: "Sportchilarimizuchunfahiryolliq",
+        title:"Sportchilarimiz uchun"
        
     },
     {
-        img: "scientificfilms/5.jpg",
-        fan: "Ilmiy filimlar",
+        img: "professionalCertificate/5.jpg",
+        fan: "",
         kun: "",
         h4: "Buyuk geografik kashfiyotlar",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.",
@@ -57,7 +57,7 @@ export default [
        
     },
     {
-        img: "scientificfilms/6.jpg",
+        img: "professionalCertificate/6.jpg",
         fan: "Ilmiy filimlar",
         kun: "",
         h4: "Astranom olim haqida filim",

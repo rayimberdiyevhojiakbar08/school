@@ -23,9 +23,9 @@ export default [
         span: "fa fa-microphone"
     },
     {
-        nameh4: "Video Lessons",
+        nameh4: "Scientific films",
         p: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus non dolorem excepturi libero itaque sint labore similique maxime natus eum.",
-        _id: "videolessons",
+        _id: "scientificfilms",
         span: "fa fa-film"
     },
     {
